@@ -8,7 +8,7 @@ import one.digitalinnovation.personapi.entity.Person;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2021-06-28T10:43:13-0300",
+    date = "2021-06-28T14:40:42-0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.11 (AdoptOpenJDK)"
 )
 public class PersonMapperImpl implements PersonMapper {

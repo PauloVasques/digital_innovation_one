@@ -9,9 +9,7 @@ import one.digitalinnovation.personapi.mapper.PersonMapper;
 import one.digitalinnovation.personapi.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.yaml.snakeyaml.nodes.CollectionNode;
 
-import java.lang.reflect.Constructor;
 import java.util.List;
 import java.util.stream.Collectors;
 
