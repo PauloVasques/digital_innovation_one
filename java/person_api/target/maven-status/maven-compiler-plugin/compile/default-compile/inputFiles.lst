@@ -1,0 +1,8 @@
+/home/paulo/digital_innovation_one/java/person_api/src/main/java/one/digitalinnovation/personapi/controllers/PersonController.java
+/home/paulo/digital_innovation_one/java/person_api/src/main/java/one/digitalinnovation/personapi/service/PersonService.java
+/home/paulo/digital_innovation_one/java/person_api/src/main/java/one/digitalinnovation/personapi/repository/PersonRepository.java
+/home/paulo/digital_innovation_one/java/person_api/src/main/java/one/digitalinnovation/personapi/entity/Person.java
+/home/paulo/digital_innovation_one/java/person_api/src/main/java/one/digitalinnovation/personapi/mapper/PersonMapper.java
+/home/paulo/digital_innovation_one/java/person_api/src/main/java/one/digitalinnovation/personapi/PersonapiApplication.java
+/home/paulo/digital_innovation_one/java/person_api/src/main/java/one/digitalinnovation/personapi/dto/request/PersonDTO.java
+/home/paulo/digital_innovation_one/java/person_api/src/main/java/one/digitalinnovation/personapi/dto/response/MessageResponseDTO.java

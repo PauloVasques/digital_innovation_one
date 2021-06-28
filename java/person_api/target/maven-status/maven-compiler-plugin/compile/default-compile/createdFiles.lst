@@ -1,0 +1,12 @@
+one/digitalinnovation/personapi/mapper/PersonMapper.class
+one/digitalinnovation/personapi/service/PersonService.class
+one/digitalinnovation/personapi/repository/PersonRepository.class
+one/digitalinnovation/personapi/dto/response/MessageResponseDTO.class
+one/digitalinnovation/personapi/dto/response/MessageResponseDTO$MessageResponseDTOBuilder.class
+one/digitalinnovation/personapi/PersonapiApplication.class
+one/digitalinnovation/personapi/entity/Person.class
+one/digitalinnovation/personapi/dto/request/PersonDTO$PersonDTOBuilder.class
+one/digitalinnovation/personapi/mapper/PersonMapperImpl.class
+one/digitalinnovation/personapi/dto/request/PersonDTO.class
+one/digitalinnovation/personapi/entity/Person$PersonBuilder.class
+one/digitalinnovation/personapi/controllers/PersonController.class
