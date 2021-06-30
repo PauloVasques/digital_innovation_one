@@ -35,7 +35,7 @@ public class PersonServiceTest {
         Person expectedSavedPerson = createFakeEntity();
 
         when(personRepository.save(any(Person.class))).thenReturn(expectedSavedPerson);
-        
+
         MessageResponseDTO successMessage =  personService.createPerson(personDTO);
 
         assertEquals("Created Person with ID"+expectedSavedPerson.getId(), successMessage.getMessage());
