@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/states")
+@RequestMapping("/api/v1/states")
 public class StateResource {
 
     private final StateRepository repository;

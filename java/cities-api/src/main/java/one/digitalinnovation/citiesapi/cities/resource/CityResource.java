@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/cities")
+@RequestMapping("/api/v1/cities")
 public class CityResource {
 
 

@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/countries")
+@RequestMapping("/api/v1/countries")
 public class CountryResource {
 
     private final CountryRepository repository;
