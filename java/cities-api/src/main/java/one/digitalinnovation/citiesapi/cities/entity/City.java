@@ -1,5 +1,10 @@
 package one.digitalinnovation.citiesapi.cities.entity;
 
+import org.hibernate.annotations.Type;
+import org.hibernate.annotations.TypeDef;
+import org.hibernate.annotations.TypeDefs;
+import org.springframework.data.geo.Point;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -7,6 +12,9 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "cidade")
+@TypeDefs(value = {
+        @TypeDef(name = "point", typeClass = PointType.class)
+})
 public class City {
 
     @Id
@@ -20,7 +28,11 @@ public class City {
     private Integer ibge;
 
     @Column(name = "lat_lon")
-    private String geoLocation;
+    private String geolocation;
+
+    @Type(type = "point")
+    @Column(name = "lat_lon", updatable = false, insertable = false)
+    private Point location;
 
     public City() {
     }
@@ -42,6 +54,10 @@ public class City {
     }
 
     public String getGeoLocation() {
-        return geoLocation;
+        return geolocation;
+    }
+
+    public Point getLocation() {
+        return location;
     }
 }
