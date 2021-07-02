@@ -8,9 +8,9 @@ HowTo Execute:
 mvn spring-boot:run
 ```
 
-```
-HowTo Use:
 
+HowTo Use:
+```
 - For Cities
 
 http://localhost:8080/api/v1/cities
